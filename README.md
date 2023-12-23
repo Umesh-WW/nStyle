@@ -4,7 +4,7 @@ next style
 
  # Project Name
 
-Brief project description goes here.
+simple style for this feature in app 
 
 ## Features
 
