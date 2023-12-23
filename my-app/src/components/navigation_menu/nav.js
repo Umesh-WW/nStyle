@@ -24,8 +24,12 @@ export default function NavMenu() {
           { className: "", label: "Home", id: 5 },
           { className: "", label: "Home", id: 6 },
           { className: "", label: "Home", id: 7 },
-        ].map((item)=><li key={item.id} className={...{styles.li,styles.className}}>{item.label}</li>)}
-       
+        ].map((item) => (
+          <li key={item.id} className={""}>
+            {item.label}
+          </li>
+        ))}
+
         <li>
           <a href="#about">About</a>
         </li>
