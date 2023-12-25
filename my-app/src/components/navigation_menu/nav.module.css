@@ -1,24 +1,46 @@
 .nav {
  width: 100vw;
- padding: 2rem;
- /* padding-top: rem; */
+ padding-top: 1rem;
 }
 
 .ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
 }
 
 .li {
   /* flex: 1 1 10ch; */
- flex-basis: 10ch;
   text-decoration: none;
+  display: flex;
   list-style-type: none;
+  padding: 6px 16px;
+  border-radius: 2rem;
+  align-items:center;
+  justify-content: center;
+  cursor: pointer;
+    transition-property: color;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+  }
+
+.li:hover {
+  background-color: rgb(129, 137, 137);
+   
 }
 
+.ul *:nth-last-child(1) {
+ color: red;
+ margin-right: 2ch;
+}
+
+.ul *:nth-last-child(2) {
+  color: red;
+  margin-left: auto;
+ }
+
 .logo {
-  margin-left: 2rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
 }
 
 
