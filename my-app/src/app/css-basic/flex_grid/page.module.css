@@ -1,0 +1,52 @@
+.main {
+  /* height: max-content; */
+  width: 100%;
+  /* align-items: center; */
+  background-color: antiquewhite;
+  min-height: 100vh;
+  padding: 6rem;
+}
+.evenbox {
+  /* height: 20rem; */
+  width: auto;
+  background-color: azure;
+  min-width: 10rem;
+}
+
+.h2 {
+  justify-content: center;
+  margin-right: auto;
+  display: flex;
+  padding: 2rem;
+}
+
+.cards {
+  padding: 0.5rem;
+}
+
+.colunms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 8px;
+}
+
+.card {
+  background-color: aqua;
+  height: auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  text-align: justify;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.tag {
+  list-style-type: none;
+  background-color: aquamarine;
+}
